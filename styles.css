@@ -1,3 +1,8 @@
+.container{
+	display:flex;
+	flex-wrap:wrap;
+	gap:20px;
+}
 .img1 {
   content: url("https://picsum.photos/id/237/200/300");
 }
@@ -13,6 +18,9 @@
   content: url("https://picsum.photos/200/300/");
 }
 .img5 {
+  content: url("https://picsum.photos/200/300.jpg");
+}
+.img6 {
   content: url("https://picsum.photos/200/300.jpg");
 }
 
